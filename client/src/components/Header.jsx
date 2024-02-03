@@ -35,7 +35,9 @@ export default function () {
           <FaMoon />
         </Button>
         <Link to={"/sign-in"}>
-          <Button outline>Sign In</Button>
+          <Button className="bg-[#008080]" outline>
+            Sign In
+          </Button>
         </Link>
         <Navbar.Toggle></Navbar.Toggle>
       </div>
