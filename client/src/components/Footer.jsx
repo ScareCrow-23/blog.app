@@ -1,7 +1,12 @@
 import { Footer } from "flowbite-react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
-import { BsInstagram, BsGithub, BsTwitter, BsThreads } from "react-icons/bs";
+import {
+  BsInstagram,
+  BsGithub,
+  BsTwitter,
+  BsLinkedin,
+} from "react-icons/bs";
 export default function FooterCom() {
   return (
     <Footer container className="border border-t-8 border-[#008080]">
@@ -43,7 +48,9 @@ export default function FooterCom() {
             <div>
               <Footer.Title title="Legal" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Privacy Policy</Footer.Link>
+                <Footer.Link href="">
+                  Privacy Policy
+                </Footer.Link>
               </Footer.LinkGroup>
               <Footer.LinkGroup col>
                 <Footer.Link href="#">Terms & Conditions</Footer.Link>
@@ -59,10 +66,19 @@ export default function FooterCom() {
             year={new Date().getFullYear()}
           />
           <div className=" flex gap-6 sm:mt-2 mt-4 sm:justify-center">
-            <Footer.Icon href="#" icon={BsInstagram} />
-            <Footer.Icon href="#" icon={BsGithub} />
+            <Footer.Icon
+              href="https://www.instagram.com/_web_weavers_/"
+              icon={BsInstagram}
+            />
+            <Footer.Icon
+              href="https://github.com/ScareCrow-23"
+              icon={BsGithub}
+            />
             <Footer.Icon href="#" icon={BsTwitter} />
-            <Footer.Icon href="#" icon={BsThreads} />
+            <Footer.Icon
+              href="https://in.linkedin.com/in/saumil-dhumal-929248263?original_referer="
+              icon={BsLinkedin}
+            />
           </div>
         </div>
       </div>

@@ -1,5 +1,10 @@
 import React from "react";
+import CallToAction from "../components/CallToAction";
 
 export default function Contact() {
-  return <div>Work in progress...</div>;
+  return (
+    <div className="min-h-screen flex items-center justify-center">
+      <CallToAction />
+    </div>
+  );
 }

@@ -1,6 +1,7 @@
 import { AiFillInstagram } from "react-icons/ai";
 import { FaTwitter, FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 export default function CallToAction() {
   return (
@@ -9,10 +10,23 @@ export default function CallToAction() {
         <h2 className="text-2xl">Wanna Know more about us?</h2>
         <p className="text-gray-500 my-5">Follow us on our socials</p>
         <div className=" flex gap-3 ">
-          <AiFillInstagram />
-          <FaTwitter />
-          <FaLinkedin />
-          <FaGithub />
+          <Link to={"https://www.instagram.com/_web_weavers_/"} target="_blank">
+            <AiFillInstagram />
+          </Link>
+          <Link to={"#"} target="_blank">
+            <FaTwitter />
+          </Link>
+          <Link
+            to={
+              "https://in.linkedin.com/in/saumil-dhumal-929248263?original_referer="
+            }
+            target="_blank"
+          >
+            <FaLinkedin />
+          </Link>
+          <Link to={"https://github.com/ScareCrow-23"} target="_blank">
+            <FaGithub />
+          </Link>
         </div>
       </div>
       <div className="p-7 flex-1">
