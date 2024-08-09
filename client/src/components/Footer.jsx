@@ -1,12 +1,7 @@
 import { Footer } from "flowbite-react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
-import {
-  BsInstagram,
-  BsGithub,
-  BsTwitter,
-  BsLinkedin,
-} from "react-icons/bs";
+import { BsInstagram, BsGithub, BsTwitter, BsLinkedin } from "react-icons/bs";
 export default function FooterCom() {
   return (
     <Footer container className="border border-t-8 border-[#008080]">
@@ -15,13 +10,14 @@ export default function FooterCom() {
           <div className="mt-5">
             <Link
               to="/"
-              className="self-centered whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
+              className="self-centered whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white flex items-center gap-2"
             >
               <img
                 src={logo}
                 alt=""
                 className="h-12 w-12 bg-black rounded-full object-contain object-center overflow-hidden "
               />
+              <span className="text-sm">Ball Knowledge 21</span>
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 mt-4 sm:grid-cols-3 sm:gap-6">
@@ -48,9 +44,7 @@ export default function FooterCom() {
             <div>
               <Footer.Title title="Legal" />
               <Footer.LinkGroup col>
-                <Footer.Link href="">
-                  Privacy Policy
-                </Footer.Link>
+                <Footer.Link href="">Privacy Policy</Footer.Link>
               </Footer.LinkGroup>
               <Footer.LinkGroup col>
                 <Footer.Link href="#">Terms & Conditions</Footer.Link>

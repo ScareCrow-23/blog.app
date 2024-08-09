@@ -32,8 +32,8 @@ export default function CallToAction() {
       <div className="p-7 flex-1">
         <img
           src="https://i.pinimg.com/564x/1b/06/80/1b0680f19bf4014fe76a2ae3b8865be5.jpg"
-          //   src="https://i.pinimg.com/564x/c9/9f/38/c99f380aad9dde6e8081ffd6f68bebc2.jpg"
-          //   src="https://i.pinimg.com/564x/cf/a9/06/cfa9065324031b079d58bbf4064640dd.jpg"
+          // src="https://i.pinimg.com/564x/c9/9f/38/c99f380aad9dde6e8081ffd6f68bebc2.jpg"
+          // src="https://i.pinimg.com/564x/cf/a9/06/cfa9065324031b079d58bbf4064640dd.jpg"
           alt=""
         />
       </div>

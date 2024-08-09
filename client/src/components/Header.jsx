@@ -57,15 +57,14 @@ export default function () {
     <Navbar className="border-b-2">
       <Link
         to="/"
-        className="self-centered whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
+        className="self-centered whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white flex items-center gap-2"
       >
         <img
           src={logo}
           alt=""
           className="h-12 w-12 bg-black rounded-full object-contain object-center overflow-hidden "
         />
-        {/* <span className="bg-[#008080] text-white m-1 px-2 rounded">Dev</span>
-        Dose */}
+        <span className="text-sm">Ball Knowledge 21</span>
       </Link>
       <form onSubmit={handleSubmit}>
         <TextInput

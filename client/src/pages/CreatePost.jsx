@@ -102,16 +102,16 @@ export default function CreatePost() {
             }
           >
             <option value="uncategorized">Select a category</option>
-            <option value="Technology">Technology & Gadgets</option>
-            <option value="Lifestyle">Lifestyle & Wellness</option>
-            <option value="Travel">Travel & Adventure</option>
-            <option value="Home">DIY & Home Improvement</option>
-            <option value="Cooking">Food & Cooking</option>
-            <option value="Finance">Finance & Personal Development</option>
-            <option value="Entertainment">Entertainment & Pop Culture</option>
-            <option value="Career">Career & Professional Growth</option>
-            <option value="Books">Books & Literature</option>
-            <option value="Hobbies">Hobbies & Crafts</option>
+            <option value="FootballWeekly">Football Weekly</option>
+            <option value="PremierLeague">Premier League</option>
+            <option value="LaLiga">LaLiga</option>
+            <option value="SerieA">Serie A</option>
+            <option value="MatchAnalysis">Match Analysis & Reviews</option>
+            <option value="PlayerProfile">Player Profiles & Interviews</option>
+            <option value="FootballHistory">Football History & Legends</option>
+            <option value="Culture">Football Culture</option>
+            <option value="WomensFootball">Women’s Football</option>
+            <option value="OtherSports">Other Sports</option>
           </Select>
         </div>
         <div className="flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3">

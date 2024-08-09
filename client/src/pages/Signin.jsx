@@ -56,7 +56,11 @@ export default function Signin() {
             {/* <span className="bg-[#008080] text-white m-1 px-2 rounded">Dev</span>
         Dose */}
           </Link>
-          <p className="font-bold mt-5"> Code. Share. Connect</p>
+          <p className="font-bold mt-5 text-center">
+            {" "}
+            Ball Knowledge 21: Your Weekly Source for All Things Related
+            Football.
+          </p>
         </div>
         {/* Right Div */}
         <div className="flex-1">
