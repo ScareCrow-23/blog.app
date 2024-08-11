@@ -122,10 +122,21 @@ export default function Search() {
               value={sidebarData.category}
               id="category"
             >
-              <option value="uncategorized">Uncategorized</option>
-              <option value="reactjs">React.js</option>
-              <option value="nextjs">Next.js</option>
-              <option value="javascript">JavaScript</option>
+              <option value="uncategorized">Select a category</option>
+              <option value="FootballWeekly">Football Weekly</option>
+              <option value="PremierLeague">Premier League</option>
+              <option value="LaLiga">LaLiga</option>
+              <option value="SerieA">Serie A</option>
+              <option value="MatchAnalysis">Match Analysis & Reviews</option>
+              <option value="PlayerProfile">
+                Player Profiles & Interviews
+              </option>
+              <option value="FootballHistory">
+                Football History & Legends
+              </option>
+              <option value="Culture">Football Culture</option>
+              <option value="WomensFootball">Women’s Football</option>
+              <option value="OtherSports">Other Sports</option>
             </Select>
           </div>
           <Button type="submit" outline gradientDuoTone="purpleToPink">
